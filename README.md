@@ -21,7 +21,7 @@ This course will cover building a backend server using node and express.
 - Core Modules
   - Promise
   - global
-  - promise
+  - process
   - Error
   - Error first callback
   - fs
