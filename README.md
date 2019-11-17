@@ -36,6 +36,17 @@ This course will cover building a backend server using node and express.
   - pattern middleware creator
   - express static
   - pattern: data through request
-  - 
+  - express.json(), express.urlencoded()
+  - strategy pattern
+  - express-session
+  - passport
+  - authorization
+  - Router
+  - express configurations
+  - views + mustache
+  - error handling
+  - express generator
+
+
 
   
