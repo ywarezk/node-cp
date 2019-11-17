@@ -61,13 +61,21 @@ This course will cover building a backend server using node and express.
       send back the item i created
       status: 201
   - request type PUT:
+
       url: /api/task/:id/
+
       status: 202
+
       update a single item in the array
+
       send updated item
+
       type: DELETE
+
       url: /api/task/:id/
+
       status: 204
+      
   - res.status(201).json({})
 
 
