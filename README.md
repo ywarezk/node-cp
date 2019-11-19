@@ -78,5 +78,15 @@ This course will cover building a backend server using node and express.
       
   - res.status(201).json({})
 
+- Unit Testing - Mocha
+  - describe, it
+  - first test
+  - debugging the test
+  - hooks
+  - testing the server
+
+- Sequelize - working with DB
+  - 
+
 
   
