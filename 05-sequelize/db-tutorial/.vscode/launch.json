@@ -1,0 +1,21 @@
+{
+    // engine://username:password@url:5432/dbName
+    // sqlite://<path to db file>
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}\\bin\\www",
+            "env": {
+                "DATABASE_URL": "sqlite:///C:/Users/CP/Desktop/node-cp/05-sequelize/db-tutorial/db.sqlite"
+            }
+        }
+    ]
+}
