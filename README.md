@@ -88,5 +88,10 @@ This course will cover building a backend server using node and express.
 - Sequelize - working with DB
   - 
 
+- Video lecture EX. REST
+  - https://youtu.be/hNWDLifTh3s
+
+- Video Lecture GraphQL:
+  - https://youtu.be/jVJUD6KI8CM
 
   
