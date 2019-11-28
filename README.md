@@ -94,4 +94,30 @@ This course will cover building a backend server using node and express.
 - Video Lecture GraphQL:
   - https://youtu.be/jVJUD6KI8CM
 
-  
+## Findal EX: REST + Graphql
+
+### Chapter I
+
+- Create a new express project connected to sequelize
+- Create a new model and migration for User which contains the fields: firstName, email, password
+- Create a REST API for getting all the users, register a user, login a user
+- The login and register should provide a JWT token as well
+- The password in the users table should be hashed using the library **bcrypt**
+- Create the same API with GraphQL
+
+### Chapter II
+
+- Create a todo table and model
+- create a many to many associations between the user and the todo, every user can create many todos
+- serve that data using graphql, make sure you are able for each user to get all his messages and for each message to get his user
+
+### Chapter III
+
+- reading the todo list should be restricted to registered users
+- only if you pass the JWT token in the headers: Authorization will you be able to read it.
+- using passport add the JWT authentication to the todo rest api
+- Can you do the same with the GraphQL todo api? 
+
+### Chapter VI
+
+- Add unit tests for all the apis
