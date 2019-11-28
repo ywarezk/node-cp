@@ -1,19 +1,19 @@
 {
-  "name": "db-tutorial",
+  "name": "another-ts-example",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "apollo-server-express": "^2.9.12",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1",
-    "sequelize": "^5.21.2",
-    "sqlite3": "^4.1.0"
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
   }
 }

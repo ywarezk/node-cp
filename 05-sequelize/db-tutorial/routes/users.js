@@ -1,9 +1,23 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+// {Message: class ...}
+// const Message = require('../models').Message
+const { User, Message } = require('../models');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+const userRouter = express.Router();
 
-module.exports = router;
+// /api/user/
+userRouter.route('/')
+    .get(async function(req, res) {
+        const users = await User.findAll({
+            include: [
+                {
+                    model: Message,
+                    attributes: ['id']
+                }
+                
+            ]
+        });
+        res.json(users);
+    });
+    
+module.exports = userRouter;
